@@ -1,0 +1,32 @@
+table,
+thead,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 27px;
+  align-items: center;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+#social {
+  background-color: #ffffff;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  display: flex !important;
+  /* flex-direction: column; */
+}
+@media (max-width: 768px) {
+  #chartasection {
+    display: block;
+    gap: 3vw;
+  }
+}
+@media (max-width: 768px) {
+  #graph {
+    margin-bottom: 3vw;
+    padding-bottom: 3vw;
+  }
+}
